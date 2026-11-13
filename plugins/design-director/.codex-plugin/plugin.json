@@ -1,0 +1,12 @@
+{
+  "name": "design-director",
+  "version": "0.1.0",
+  "description": "Pick the installed design skills a task actually needs, then run and check that work without stacking conflicting design systems.",
+  "license": "MIT",
+  "author": {
+    "name": "Taehun Oh",
+    "url": "https://github.com/oth54477"
+  },
+  "keywords": ["design", "ui", "orchestrator"],
+  "skills": "./skills/"
+}

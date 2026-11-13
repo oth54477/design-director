@@ -1,0 +1,16 @@
+{
+  "name": "design-director",
+  "owner": {
+    "name": "Taehun Oh"
+  },
+  "plugins": [
+    {
+      "name": "design-director",
+      "source": "./plugins/design-director",
+      "description": "Pick the installed design skills a task actually needs, then run and check that work without stacking conflicting design systems.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "category": "design"
+    }
+  ]
+}

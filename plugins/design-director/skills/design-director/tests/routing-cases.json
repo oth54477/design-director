@@ -1,0 +1,681 @@
+[
+  {
+    "id": "saas-dashboard-improve",
+    "task": "improve",
+    "has_design_system": true,
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "impeccable",
+        "web-design-guidelines"
+      ],
+      "missing": [],
+      "focus": [
+        "impeccable:polish",
+        "web-design-guidelines:fetch"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": true,
+      "fetch_guidelines": true,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "image"
+    }
+  },
+  {
+    "id": "new-react-no-design-system",
+    "task": "new-product",
+    "has_design_system": false,
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "ui-ux-pro-max",
+        "impeccable",
+        "web-design-guidelines"
+      ],
+      "missing": [],
+      "focus": [
+        "ui-ux-pro-max:design-system-no-persist",
+        "impeccable:shape",
+        "web-design-guidelines:fetch"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": true,
+      "fetch_guidelines": true,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "image"
+    }
+  },
+  {
+    "id": "brand-landing",
+    "task": "landing",
+    "has_design_system": false,
+    "brand_hint": "art",
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "taste",
+        "impeccable",
+        "web-design-guidelines"
+      ],
+      "missing": [],
+      "focus": [
+        "taste:landing",
+        "impeccable:polish",
+        "web-design-guidelines:fetch"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": true,
+      "fetch_guidelines": true,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "image"
+    }
+  },
+  {
+    "id": "themed-new-page",
+    "task": "landing",
+    "has_design_system": false,
+    "brand_hint": "theme",
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "hallmark",
+        "impeccable",
+        "web-design-guidelines"
+      ],
+      "missing": [],
+      "focus": [
+        "hallmark:new-page",
+        "impeccable:polish",
+        "web-design-guidelines:fetch"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": true,
+      "fetch_guidelines": true,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "image"
+    }
+  },
+  {
+    "id": "modal-motion-only",
+    "task": "motion",
+    "motion_kind": "single",
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "animate"
+      ],
+      "missing": [],
+      "focus": [
+        "animate:implement"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": false,
+      "fetch_guidelines": false,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "none"
+    }
+  },
+  {
+    "id": "enterprise-keep-design-system",
+    "task": "improve",
+    "has_design_system": true,
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "impeccable",
+        "web-design-guidelines"
+      ],
+      "missing": [],
+      "focus": [
+        "impeccable:polish",
+        "web-design-guidelines:fetch"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": true,
+      "fetch_guidelines": true,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "image"
+    }
+  },
+  {
+    "id": "ppt-report",
+    "task": "document",
+    "visual_doc": false,
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "kami"
+      ],
+      "missing": [],
+      "focus": [
+        "kami:build"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "artifact",
+      "cli_execute": true,
+      "fetch_guidelines": false,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "none"
+    }
+  },
+  {
+    "id": "a11y-audit-only",
+    "task": "audit",
+    "motion": false,
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "web-design-guidelines",
+        "impeccable"
+      ],
+      "missing": [],
+      "focus": [
+        "web-design-guidelines:fetch",
+        "impeccable:audit"
+      ],
+      "needs_decision": false,
+      "code_edits": false,
+      "verify_mode": "browser",
+      "cli_execute": false,
+      "fetch_guidelines": true,
+      "allow_external_model": false,
+      "plan_approval": false,
+      "mockup": "none"
+    }
+  },
+  {
+    "id": "missing-impeccable",
+    "task": "improve",
+    "has_design_system": true,
+    "installed": "all-impeccable",
+    "expect": {
+      "selected": [
+        "web-design-guidelines"
+      ],
+      "missing": [
+        "impeccable"
+      ],
+      "focus": [
+        "web-design-guidelines:fetch"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": false,
+      "fetch_guidelines": true,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "image"
+    }
+  },
+  {
+    "id": "conflicting-style-skills",
+    "task": "landing",
+    "named": [
+      "taste",
+      "hallmark"
+    ],
+    "installed": "all",
+    "expect": {
+      "selected": [],
+      "missing": [],
+      "focus": [],
+      "needs_decision": true,
+      "code_edits": false,
+      "verify_mode": "none",
+      "cli_execute": false,
+      "fetch_guidelines": false,
+      "allow_external_model": false,
+      "plan_approval": false,
+      "mockup": "none"
+    }
+  },
+  {
+    "id": "no-browser-no-cli-no-model",
+    "task": "improve",
+    "has_design_system": true,
+    "installed": "all",
+    "browser": false,
+    "cli": false,
+    "network": false,
+    "external_model": false,
+    "expect": {
+      "selected": [
+        "impeccable",
+        "web-design-guidelines"
+      ],
+      "missing": [],
+      "focus": [
+        "impeccable:polish",
+        "web-design-guidelines:local-only"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "static",
+      "cli_execute": false,
+      "fetch_guidelines": false,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "html-only"
+    }
+  },
+  {
+    "id": "explore-directions",
+    "task": "explore",
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "huashu"
+      ],
+      "missing": [],
+      "focus": [
+        "huashu:three-directions"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": true,
+      "fetch_guidelines": false,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "directions"
+    }
+  },
+  {
+    "id": "explore-with-workspace",
+    "task": "explore",
+    "workspace": true,
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "huashu",
+        "open-design"
+      ],
+      "missing": [],
+      "focus": [
+        "huashu:three-directions",
+        "open-design:companion-only"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": true,
+      "fetch_guidelines": false,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "directions"
+    }
+  },
+  {
+    "id": "experimental-slides",
+    "task": "document",
+    "visual_doc": true,
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "huashu"
+      ],
+      "missing": [],
+      "focus": [
+        "huashu:three-directions"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "artifact",
+      "cli_execute": true,
+      "fetch_guidelines": false,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "none"
+    }
+  },
+  {
+    "id": "landing-keeps-existing-system",
+    "task": "landing",
+    "has_design_system": true,
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "impeccable",
+        "web-design-guidelines"
+      ],
+      "missing": [],
+      "focus": [
+        "impeccable:polish",
+        "web-design-guidelines:fetch"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": true,
+      "fetch_guidelines": true,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "image"
+    }
+  },
+  {
+    "id": "new-product-keeps-existing-system",
+    "task": "new-product",
+    "has_design_system": true,
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "impeccable",
+        "web-design-guidelines"
+      ],
+      "missing": [],
+      "focus": [
+        "impeccable:shape",
+        "web-design-guidelines:fetch"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": true,
+      "fetch_guidelines": true,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "image"
+    }
+  },
+  {
+    "id": "improve-with-motion",
+    "task": "improve",
+    "has_design_system": true,
+    "motion": true,
+    "motion_kind": "single",
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "impeccable",
+        "web-design-guidelines",
+        "animate"
+      ],
+      "missing": [],
+      "focus": [
+        "impeccable:polish",
+        "web-design-guidelines:fetch",
+        "animate:implement"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": true,
+      "fetch_guidelines": true,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "image"
+    }
+  },
+  {
+    "id": "named-hallmark-on-existing-app",
+    "task": "improve",
+    "has_design_system": true,
+    "named": "hallmark",
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "hallmark",
+        "impeccable",
+        "web-design-guidelines"
+      ],
+      "missing": [],
+      "focus": [
+        "hallmark:new-page",
+        "impeccable:polish",
+        "web-design-guidelines:fetch"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": true,
+      "fetch_guidelines": true,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "image"
+    }
+  },
+  {
+    "id": "motion-group",
+    "task": "motion",
+    "motion_kind": "group",
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "choreograph"
+      ],
+      "missing": [],
+      "focus": [
+        "choreograph:implement"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": false,
+      "fetch_guidelines": false,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "none"
+    }
+  },
+  {
+    "id": "motion-jank",
+    "task": "motion",
+    "motion_kind": "jank",
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "animation-performance"
+      ],
+      "missing": [],
+      "focus": [
+        "animation-performance:diagnose"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": false,
+      "fetch_guidelines": false,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "none"
+    }
+  },
+  {
+    "id": "audit-includes-motion-review",
+    "task": "audit",
+    "motion": true,
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "web-design-guidelines",
+        "impeccable",
+        "review-animations"
+      ],
+      "missing": [],
+      "focus": [
+        "web-design-guidelines:fetch",
+        "impeccable:audit",
+        "review-animations:review"
+      ],
+      "needs_decision": false,
+      "code_edits": false,
+      "verify_mode": "browser",
+      "cli_execute": false,
+      "fetch_guidelines": true,
+      "allow_external_model": false,
+      "plan_approval": false,
+      "mockup": "none"
+    }
+  },
+  {
+    "id": "ppt-without-kami",
+    "task": "document",
+    "visual_doc": false,
+    "installed": "all-kami",
+    "expect": {
+      "selected": [],
+      "missing": [
+        "kami"
+      ],
+      "focus": [],
+      "needs_decision": false,
+      "code_edits": false,
+      "verify_mode": "artifact",
+      "cli_execute": false,
+      "fetch_guidelines": false,
+      "allow_external_model": false,
+      "plan_approval": false,
+      "mockup": "none"
+    }
+  },
+  {
+    "id": "expo-motion-fallback",
+    "task": "motion",
+    "motion_kind": "single",
+    "platform": "expo",
+    "installed": "all",
+    "expect": {
+      "selected": [
+        "animate"
+      ],
+      "missing": [
+        "animate-expo"
+      ],
+      "focus": [
+        "animate:implement"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": false,
+      "fetch_guidelines": false,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "none"
+    }
+  },
+  {
+    "id": "expo-motion-present",
+    "task": "motion",
+    "motion_kind": "single",
+    "platform": "expo",
+    "installed": "all+animate-expo",
+    "expect": {
+      "selected": [
+        "animate-expo"
+      ],
+      "missing": [],
+      "focus": [
+        "animate-expo:implement"
+      ],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "cli_execute": false,
+      "fetch_guidelines": false,
+      "allow_external_model": false,
+      "plan_approval": true,
+      "mockup": "none"
+    }
+  },
+  {
+    "id": "explore-named-taste",
+    "task": "explore",
+    "named": "taste",
+    "installed": "all",
+    "expect": {
+      "missing": [],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "allow_external_model": false,
+      "plan_approval": true,
+      "selected": [
+        "taste"
+      ],
+      "focus": [
+        "taste:new-page"
+      ],
+      "cli_execute": true,
+      "fetch_guidelines": false,
+      "mockup": "image"
+    }
+  },
+  {
+    "id": "improve-skip-mockup",
+    "task": "improve",
+    "has_design_system": true,
+    "skip_mockup": true,
+    "installed": "all",
+    "expect": {
+      "missing": [],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "browser",
+      "allow_external_model": false,
+      "plan_approval": true,
+      "selected": [
+        "impeccable",
+        "web-design-guidelines"
+      ],
+      "focus": [
+        "impeccable:polish",
+        "web-design-guidelines:fetch"
+      ],
+      "cli_execute": true,
+      "fetch_guidelines": true,
+      "mockup": "none"
+    }
+  },
+  {
+    "id": "landing-no-browser",
+    "task": "landing",
+    "has_design_system": false,
+    "brand_hint": "art",
+    "browser": false,
+    "installed": "all",
+    "expect": {
+      "missing": [],
+      "needs_decision": false,
+      "code_edits": true,
+      "verify_mode": "static",
+      "allow_external_model": false,
+      "plan_approval": true,
+      "selected": [
+        "taste",
+        "impeccable",
+        "web-design-guidelines"
+      ],
+      "focus": [
+        "taste:landing",
+        "impeccable:polish",
+        "web-design-guidelines:fetch"
+      ],
+      "cli_execute": true,
+      "fetch_guidelines": true,
+      "mockup": "html-only"
+    }
+  }
+]
